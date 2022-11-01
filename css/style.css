@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    border-radius: 100%;
+    border: 1px solid grey;
+    margin: .5rem;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+body{
+    font-family: "Verdana, Geneva, Tahoma, sans-serif;"
+}
+
+.checked-off {
+    color: blue;
+    text-decoration: line-through;
+}
+
+
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+}
+
+.highlight {
+    background: yellow;
+}
+
